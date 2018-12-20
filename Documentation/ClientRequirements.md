@@ -3,7 +3,7 @@
 
 ## Main Idea
 
-The main function of this “household app” is to send alerts or small messages to groups of people. The focus group is a household but could expand to include any kind of group of people. If a member wanted to alert everybody in the group of something, e.g. “Dinner’s Ready!”, all he would have to do is clicked the “Dinner’s Ready” button and it would send everyone in the group the message through the application.
+The main function of this app is to send alerts or small messages to groups of people. This app could be very useful for households or larger groups of people. If a member wanted to alert everybody in the group of something, e.g. “Dinner’s Ready!”, all he would have to do is click the “Dinner’s Ready” button and it would send everyone in the group the message through the application. The point of this app is to provide a simple and fast way to alert everyone of the group without the alternative of creating a group text message to everyone on the group which can take too long sometimes.
 
 ## Key Concepts
 
@@ -18,7 +18,7 @@ The main function of this “household app” is to send alerts or small message
 - Edit group
 - Delete group
 - Add members to group
-- Removed member from group
+- Remove member from group
 - Leave group
 - Add alert type
 - Remove alert type
