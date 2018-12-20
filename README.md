@@ -1,6 +1,6 @@
 # Whoosh
 
-> A Vue.js project
+> A Vue.js/Cordova project
 
 ## Build Setup
 
