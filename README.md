@@ -11,6 +11,7 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
+# build for ios
 npm run build
 cordova build ios
 cordova run ios --buildFlag="-UseModernBuildSystem=0"
