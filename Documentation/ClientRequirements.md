@@ -31,6 +31,4 @@ The main function of this “household app” is to send alerts or small message
 - Add alert type
 - Favorite alert type
 
-## Figma Prototype
-
-https://www.figma.com/proto/cBbwazMdPmn8w98q14cPxrw0/Household-App?node-id=1%3A2&viewport=-358%2C321%2C0.616693&scaling=scale-down
+[Figma Prototype](https://www.figma.com/proto/cBbwazMdPmn8w98q14cPxrw0/Household-App?node-id=1%3A2&viewport=-358%2C321%2C0.616693&scaling=scale-down)
