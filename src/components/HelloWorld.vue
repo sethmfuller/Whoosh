@@ -1,16 +1,16 @@
 <template>
   <div class="hello">
-    <h1>Welcome to regular users page</h1>
+    <h1>This is the homepage</h1>
     <h2>{{msg}}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'HelloWorld',
   data () {
     return {
-      msg: 'The commoners'
+      msg: 'Hello World!'
     }
   }
 }

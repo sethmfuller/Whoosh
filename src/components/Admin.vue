@@ -1,22 +1,22 @@
 <template>
   <div class="hello">
-    <h1>Welcome to regular users page</h1>
+    <h1>Welcome to administrator page</h1>
     <h2>{{msg}}</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'Admin',
   data () {
     return {
-      msg: 'The commoners'
+      msg: 'The superheros'
     }
   }
 }
 </script>
 
-<style scoped>
+<style>
   h1, h2 {
     font-weight: normal;
   }
