@@ -12,7 +12,7 @@ The main function of this “household app” is to send alerts or small message
 3. Fast/quick to accomplish goal/ little overhead
 4. “Fun”
 
-# Main Features
+## Main Features
 
 - Create group
 - Edit group
