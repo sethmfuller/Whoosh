@@ -1,5 +1,5 @@
 # Requirements
-> Household App
+> Whoosh
 
 ## Main Idea
 

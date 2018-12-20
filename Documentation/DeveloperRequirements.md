@@ -1,5 +1,5 @@
 # Developer Requirements
->Household App
+> Whoosh
 
 ## Main Idea
 
@@ -27,7 +27,7 @@ The main function of this “household app” is to send alerts or small message
 - The user can click the minus button to remove a user from the group
 - The user can click “Change Group” to switch the Change Group page
 - The user can click “New Group” to to switch to the New Group page
-- The user can click the “Leave ______” to switch to leave the group and switch to the Change Group page.
+- The user can click the “Leave _____” to switch to leave the group and switch to the Change Group page.
 - Change Group Page
 - The user can view all current groups he/she is in.
 - The user can click one of the current groups listed to switch to that group’s Alert page.
