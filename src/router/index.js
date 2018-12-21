@@ -4,6 +4,13 @@ import Home from '@/components/Home'
 import Admin from '@/components/Admin'
 import Login from '@/components/Login'
 import Register from '@/components/Register'
+import Group from '@/components/Group'
+import NewGroup from '@/components/NewGroup'
+import ChangeGroup from '@/components/ChangeGroup'
+import Alerts from '@/components/Alerts'
+import NewAlert from '@/components/NewAlert'
+import ManageAlert from '@/components/ManageAlert'
+import AddMember from '@/components/AddMember'
 
 Vue.use(Router)
 
@@ -41,6 +48,50 @@ let router = new Router({
       meta: {
         requiresAuth: true,
         is_admin: true
+      }
+    },
+    {
+      path: '/group',
+      name: 'group',
+      component: Group,
+      meta: {
+        requiresAuth: true
+      },
+      children: [
+        {
+          path: 'new',
+          component: NewGroup
+        },
+        {
+          path: 'change',
+          component: ChangeGroup
+        }
+      ]
+    },
+    {
+      path: 'alerts',
+      name: 'alerts',
+      component: Alerts,
+      meta: {
+        requiresAuth: true
+      },
+      children: [
+        {
+          path: 'new',
+          component: NewAlert
+        },
+        {
+          path: 'manage',
+          component: ManageAlert
+        }
+      ]
+    },
+    {
+      path: 'add-member',
+      name: 'add-member',
+      component: AddMember,
+      meta: {
+        requiresAuth: true
       }
     }
   ]
