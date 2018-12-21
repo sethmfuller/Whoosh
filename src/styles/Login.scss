@@ -1,0 +1,48 @@
+@import "Main";
+
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 50%;
+  margin-bottom: 100px;
+}
+
+input {
+  width: 210px;
+  height: 55px;
+  border: none;
+  border-radius: $border-radius;
+  background-color: $secondary;
+  color: rgb(114, 170, 424);
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgb(114, 170, 424);
+}
+
+#button-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  width: 100px;
+  height: 45px;
+  background-color: white;
+  color: $primary;
+  border: none;
+  border-radius: $border-radius;
+  font-size: 18px;
+  font-weight: bold;
+}

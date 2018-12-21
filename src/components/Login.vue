@@ -1,16 +1,29 @@
 <template>
-  <div>
-    <h4>Login</h4>
+  <div id="login">
+    <h1>Login</h1>
     <form>
       <div>
-        <input id="email" type="email" v-model="email" required autofocus>
+        <input
+          id="email"
+          type="email"
+          v-model="email"
+          placeholder="Email"
+          required
+          autofocus
+        >
       </div>
       <div>
           <div>
-            <input id="password" type="password" v-model="password" required>
+            <input
+              id="password"
+              type="password"
+              v-model="password"
+              placeholder="Password"
+              required
+            >
           </div>
       </div>
-      <div>
+      <div id="button-container">
         <button type="submit" @click="handleSubmit">
           SUBMIT
         </button>
@@ -62,5 +75,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import "styles/Login";
+  @import "../styles/Login";
 </style>

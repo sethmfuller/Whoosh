@@ -89,6 +89,6 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-  @import "styles/Register";
+<style scoped lang='scss'>
+  @import '../styles/Register';
 </style>
